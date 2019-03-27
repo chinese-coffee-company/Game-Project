@@ -2,7 +2,7 @@ import javax.swing.JFrame;
 import java.awt.FlowLayout;
 import javax.swing.JLabel;
 
-public class Main extends JFrame {
+class Main extends JFrame {
 
     private JLabel t1;
     
