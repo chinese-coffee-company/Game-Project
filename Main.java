@@ -8,7 +8,7 @@ class Main extends JFrame {
     
     public Main() {
     super("Test Title");
-    setLayout(new FlowLayout);
+    setLayout(new FlowLayout());
     
     t1 = new JLabel("Testing 123");
     t1.setToolTipText("blah");
@@ -16,12 +16,4 @@ class Main extends JFrame {
     
     }
   
-
-
-
-
-
-
-
-
 }
