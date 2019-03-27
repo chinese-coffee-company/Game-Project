@@ -8,9 +8,10 @@ public class Main extends JFrame {
     
     public Main() {
     super("Test Title");
-    setLayout(new FlowLayOut);
+    setLayout(new FlowLayout);
     
     t1 = new JLabel("Testing 123");
+    t1.setToolTipText("blah");
     add(t1);
     
     }
