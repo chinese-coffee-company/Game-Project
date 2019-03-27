@@ -13,7 +13,8 @@ class Frame extends JFrame  {
 	      public void run() {
 	        JFrame f = new JFrame("Hello World");
 	        f.getContentPane().setBackground(Color.BLACK);
-	        f.setSize(400, 400);
+	        f.setSize(600, 600);
+		f.setResizable(false);
 	        f.setVisible(true);
 	        f.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 	      }
