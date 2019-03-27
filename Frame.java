@@ -1,7 +1,6 @@
 import javax.swing.JFrame;
 
-
-public class Frame extends JFrame {
+class Frame extends JFrame {
 
   public static void main(String[] args) {
   Frame f = new Frame();
@@ -12,9 +11,4 @@ public class Frame extends JFrame {
 
 
 }
-
-
-
-
-
 }
