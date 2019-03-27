@@ -17,8 +17,7 @@ class Frame extends JFrame {
   
 	  f.setLayout(new FlowLayout());
   
-	  t1 = new JLabel("Testing 123");
-	  t1.setToolTipText("blah");
+	  JLabel t1 = new JLabel("Testing 123");
   	  f.add(t1);
   
 
